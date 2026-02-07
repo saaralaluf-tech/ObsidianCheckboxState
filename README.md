@@ -1,16 +1,11 @@
-# Checkbox State Dropdown (Obsidian plugin)
+# Checkbox State Switcher
 
 Adds a command that opens a dropdown to change the checkbox state of the task on the current line.
 
-## Install into your vault
+Work only with theme that support multi state checkbox!
 
-Copy this folder into your vault:
+like: Cupertino
 
-```
-<your-vault>/.obsidian/plugins/checkbox-state-dropdown/
-  manifest.json
-  main.js
-  styles.css
-```
+## License
 
-Then enable the plugin in Obsidian and bind a hotkey to the command.
+MIT — see [LICENSE](LICENSE).

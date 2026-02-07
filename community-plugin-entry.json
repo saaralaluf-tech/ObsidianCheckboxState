@@ -1,0 +1,7 @@
+{
+  "id": "checkbox-state-dropdown",
+  "name": "Checkbox State Switcher",
+  "author": "john",
+  "description": "Change the checkbox state on the current task line using a dropdown.",
+  "repo": "saaralaluf-tech/ObsidianCheckboxState"
+}

@@ -1,10 +1,10 @@
 {
   "id": "checkbox-state-dropdown",
-  "name": "Checkbox State Dropdown",
-  "version": "0.1.0",
+  "name": "Checkbox State Switcher",
+  "version": "1.0.0",
   "minAppVersion": "1.4.0",
   "description": "Change the checkbox state on the current task line using a dropdown.",
-  "author": "",
+  "author": "john",
   "authorUrl": "",
   "isDesktopOnly": false
 }
