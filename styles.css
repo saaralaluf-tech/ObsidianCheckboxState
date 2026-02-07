@@ -1,0 +1,33 @@
+/* Slimmer spacing for the checkbox-state dropdown modal */
+
+.checkbox-state-dropdown-modal .suggestion-item {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	min-height: unset;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item > * {
+	margin-block: 0;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item p {
+	margin: 0;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item ul,
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item ol {
+	margin: 0;
+	padding-left: 0;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item li {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item .task-list-item {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
