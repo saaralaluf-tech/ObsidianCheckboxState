@@ -1,9 +1,19 @@
 /* Slimmer spacing for the checkbox-state dropdown modal */
 
 .checkbox-state-dropdown-modal .suggestion-item {
-	padding-top: 1px;
-	padding-bottom: 1px;
-	min-height: unset;
+	display: flex;
+	align-items: center;
+	padding-block: 2px;
+	padding-inline: 6px;
+	min-height: 24px;
+	overflow: visible;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-width: 0;
 }
 
 .checkbox-state-dropdown-modal .checkbox-state-dropdown-item > * {
@@ -16,18 +26,35 @@
 
 .checkbox-state-dropdown-modal .checkbox-state-dropdown-item ul,
 .checkbox-state-dropdown-modal .checkbox-state-dropdown-item ol {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-width: 0;
 	margin: 0;
-	padding-left: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .checkbox-state-dropdown-modal .checkbox-state-dropdown-item li {
+	display: flex;
+	align-items: center;
+	min-width: 0;
 	margin: 0;
 	padding: 0;
-	line-height: 1.2;
+	line-height: 1.25;
 }
 
 .checkbox-state-dropdown-modal .checkbox-state-dropdown-item .task-list-item {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	min-width: 0;
 	margin: 0;
 	padding: 0;
-	line-height: 1.2;
+	line-height: 1.25;
+}
+
+.checkbox-state-dropdown-modal .checkbox-state-dropdown-item .task-list-item-checkbox {
+	margin: 0;
+	flex: 0 0 auto;
 }
